@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.kh.practice1.func.VariablePractice2"/>
+    <fullyQualifiedTypeName name="com.kh.practice1.func.VariablePractice3"/>
+    <fullyQualifiedTypeName name="com.kh.practice1.func.VariablePractice4"/>
+    <fullyQualifiedTypeName name="com.kh.practice1.func.VariablePractice1"/>
+    <fullyQualifiedTypeName name="com.kh.practice2.func.CastingPractice1"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01.ControlPractice"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01.ControlProblem"/>
+    <fullyQualifiedTypeName name="com.kh.practice.chap01.ControlHard"/>
+    <fullyQualifiedTypeName name="kyungwon.inheritance.GoldCustomer"/>
+    <fullyQualifiedTypeName name="kyungwon.inheritance.VIPcustomer"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.kh.practice.list.library.controller.BookController"/>
+    <fullyQualifiedTypeName name="com.kh.practice.list.library.model.vo.Book"/>
+    <fullyQualifiedTypeName name="gamelevel.PlayerLevel"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>
