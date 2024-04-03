@@ -1,0 +1,69 @@
+/* 기본 셋팅 */
+body {
+    letter-spacing: 0;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #444444;
+    font-weight: 400;
+}
+/* 하단 회색 */
+
+.page-util .location{
+    overflow: hidden;
+    clear: both;
+}
+
+.page-util .location a {
+    display: block;
+    position: relative;
+    float: left;
+    height: 42px;
+    margin: 0 0 0 25px;
+    padding: 0;
+    line-height: 46px;
+    color: #666;
+}
+
+div.page-util {
+    background-color: #eee;
+    color: #666;
+    height: 42px;
+    
+}
+div.page-util > .inner-wrap{
+    width: 1100px;
+    margin: 0 auto;
+}
+div.page-util > .inner-wrap span.home {
+    display: block;
+    /* position: absolute; */
+    float:left;
+    width: 13px;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 18px 0 0 0;
+    text-indent: -9999px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-home.png) no-repeat center;
+}
+div.page-util > .inner-wrap span.direction {
+    display: block;
+    /* position: absolute; */
+    float:left;
+    width: 13px;
+    height: 100%;
+    left: 0;
+    margin: 0 0 0 10px;
+    padding: 18px 0 0 0px;
+    text-indent: -9999px;
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-location-arr.png) no-repeat left center;
+}
+
+div.page-util > .inner-wrap a {
+    float: left;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+

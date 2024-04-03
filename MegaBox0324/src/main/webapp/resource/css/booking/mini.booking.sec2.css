@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+.booking-sec2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.booking-sec2 div.movie,
+.booking-sec2 div.theater,
+.booking-sec2 div.time {
+	box-sizing: border-box;
+	height: 530px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 17px 20px;
+	/* border: 1px solid black; */
+}
+
+.booking-sec2 div.movie {
+	width: 270px;
+}
+
+.booking-sec2 div.theater {
+	width: 350px;
+}
+
+.booking-sec2 div.time {
+	width: calc(100% - 620px);
+}
+
+.booking-sec2 div.movie-title {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.booking-sec2 div.movie-tab {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.booking-sec2 div.movie-tab > label,
+.booking-sec2 div.theater-tab > label {
+	width: 50%;
+	height: 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid black;
+}
+
+.booking-sec2 div.movie-list-all,
+.booking-sec2 div.movie-list-curation {
+	overflow-y: scroll;
+}
+
+.booking-sec2 div.movie-tab > input {
+	display: none;
+}
+
+.booking-sec2 div.movie-list {
+	height: 320px;
+}
+
+.booking-sec2 div.movie-list-all {
+	height: 100%;
+}
+
+.booking-sec2 div.movie-list-all li, 
+.booking-sec2 div.movie-list-curation li {
+	padding: 10px 0 10px 30px;
+}
+
+.booking-sec2 div.movie-list-curation {
+	display: none;
+	height: 100%;
+}
+
+.booking-sec2 div.movie-select {
+	width: 100%;
+	height: 144px;
+}
+
+.booking-sec2 div.theater-title {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.booking-sec2 div.theater-tab {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+.booking-sec2 div.theater-tab > label {
+	width: 50%;
+	height: 30px;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+.booking-sec2 div.theater-tab > input {
+	display: none;
+}
+
+.booking-sec2 div.theater-1,
+.booking-sec2 div.theater-2 {
+	width:50%;
+	float:left;
+	height: 320px;
+}
+
+.booking-sec2 div.theater-1-1,
+.booking-sec2 div.theater-1-2,
+.booking-sec2 div.theater-detail{
+	height: 100%;
+	width: 100%;
+}
+.booking-sec2 div.theater-list label,
+.booking-sec2 div.theater-2 li{
+	cursor: pointer;
+}
+.booking-sec2 div.theater-detail{
+	overflow-y: scroll;
+	height: 100%;
+}
+
+.booking-sec2 div.theater-list input{
+	display: none;
+}
+
+.booking-sec2 div.theater-list li{
+	padding: 10px 0 10px 30px
+}
+
+.booking-sec2 div.theater-select {
+	display: flex;
+	width: 100%;
+	height: 144px;
+}
+
+
+
+
+
+
+
+
+
+
+.booking-sec2 div.time-title {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.booking-sec2 div.none {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+}

@@ -1,0 +1,214 @@
+/* movie */
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.ir {
+    font-size: 1;
+    line-height: 0;
+    display: block;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+/* 
+.wrap-container{
+    display: block;
+} */
+
+/* 배너 */
+/* .movie_banner{} */
+.movie_banner {
+    width: 1100px;
+    margin: 0 auto;
+}
+.banner {
+    overflow: hidden;
+    height: 100%;
+    line-height: 46px;
+    background-color: #f5f5f5;
+}
+.banner>span {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    color: #666;
+    border-image-repeat: no-repeat;
+    text-decoration: none;
+}
+.banner .banner_info {
+    text-decoration: none;
+}
+
+/* allmovie */
+.allmovie {
+    padding: 40px 0;
+}
+
+/* 탭 */
+/* .movie_tab{} */
+.movie_tab ul {
+    width: 1100px;
+}
+.movie_tab li {
+    float: left;
+    width: 220px;
+    height: 41px;
+    border: 1px solid #c6c6c6;
+    box-sizing: border-box;
+    text-align: center;
+}
+.movie_tab li a {
+    display: inline-block;
+    line-height: 40px;
+    width: 220px;
+    text-decoration: none;
+}
+
+/* .movie_tab li .active a{} */
+
+/* 차트 */
+/* .movie_chart{} */
+/* .movie_chart > div{} */
+.movie_chart>div .poster {
+    position: relative;
+    float: left;
+    width: 230;
+    height: 450;
+    margin-right: 60px;
+}
+.poster .posterbtn{
+    width:230px;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.movie_chart>div .poster:last-child {
+    margin: 0px;
+}
+.movie_chart>div .poster img {
+    display: block;
+    width: 230px;
+    height: 330px;
+}
+.movie_chart>div .poster .rank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+    display: block;
+}
+.movie_chart>div .poster .theater {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 170px;
+    height: 50px;
+}
+.movie_chart>div .poster .theater p {
+    width: 80px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .6);
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, .6);
+}
+.movie_chart>div .poster .theater p img {
+    width: 60px;
+    height: 23px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.movie_chart>div .poster .agetitle {
+    padding: 15px 0;
+}
+.movie_chart>div .poster .agetitle>div {
+    position: relative;
+    padding: 12px 0;
+}
+.movie_chart>div .poster .agetitle>div .age {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+}
+.movie_chart>div .poster .agetitle>div .title {
+    overflow: hidden;
+    position: absolute;
+    width: 200px;
+    height: 23px;
+    left: 30px;
+    top: 0;
+    font-size: 23px;
+}
+.movie_chart>div .poster .ratedate {
+    padding: 10px 0;
+}
+.movie_chart>div .poster .ratedate>div {
+    display: inline-block;
+}
+.movie_chart>div .poster .ratedate>div>span {
+    margin-right: 10px;
+}
+.movie_chart>div .infor_btn {
+    position: relative;
+    padding: 15px 0;
+}
+.movie_chart>div .infor_btn .detail {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 30px;
+}
+.movie_chart>div .infor_btn .book {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 30px;
+}
+/* 더보기 */
+.addbar{
+    padding-top:100px;
+    display: inline-block;
+    width:1100px;
+}
+.addbar>button{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #c6c6c6;
+}
+
+/* hover */
+button:hover{
+    cursor: pointer;
+}
+
+/* image */
+.age_12 {
+    background-image: url("/resource/image/12_46x46.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+.age_15 {
+    background-image: url(${pageContext.request.contextPath}/resource/image/15_46x46.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+.age_18 {
+    background-image: url(${pageContext.request.contextPath}/resource/image/18_46x46.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+}
+.age_all {
+    background-image: url(${pageContext.request.contextPath}/resource/image/ALL_46x46.png);
+    background-size: 23px;
+    background-repeat: no-repeat;
+}

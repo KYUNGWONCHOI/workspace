@@ -1,0 +1,91 @@
+
+.header-wrap{
+    /* background-color: green; */
+}
+header{
+    height: 150px;
+}
+.header-wrap header{
+    width: 100%;
+    margin: 0 auto;
+}
+.detail.container {
+    /* background-color: tomato; */
+    width: 100%;
+    min-width: 1100px;
+    min-height: 100%;
+    padding : 40px 0 0 0;
+}
+.inner-warp{
+    width: 1100px;
+    margin: 0 auto;
+}
+.detail.flex-box{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1100px;
+    height: 444px;
+    margin: 0 0 40px 0;
+    border: 1px solid black;
+}
+.detail.flex-box .left{
+    width: 480px;
+    /* padding: 0 0 30px 0; */
+    border-right: 1px solid black;
+}
+.detail.flex-box .left img {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+
+.detail.flex-box .right {
+    width: 620px;
+    padding: 15px 40px 30px 40px;
+}
+
+.right .line{
+    margin-top: 20px;
+}
+
+.goods-info p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.goods-info .total{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.goods-info .line.price{
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+
+}
+.goods-info .line.price .no{
+    /* clear: both; */
+    width: 100px;
+    float: left;
+}
+.goods-info .line.price .count{
+    width: 150px;
+    float: left;
+}
+.goods-info .line.price .count button{
+    width: 32px;
+    height: 32px;
+}
+.goods-info .line.price .count input{
+    width: 32px;
+    height: 32px;
+}
+
+.goods-info .line.price .sum{
+    /* clear: both; */
+    float: left;
+}
+.goods-info .line.submit button{
+    width: 100%;
+    height: 45px;
+}

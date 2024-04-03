@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    width: 1000px;
+}
+
+.wrap {
+    width: 700px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+fieldset {
+    width: 700px;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top {
+    margin-bottom: 20px;
+}
+
+.top .tblT {
+    padding: 0;
+    margin: 0;
+}
+
+.top .tblT th {
+    border: 0;
+}
+
+.top table tr td th {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.txta, .txt{
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    border: 1;
+    box-sizing: border-box;
+}
+
+.sub {
+    text-align: center;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+.bottom .tblB {
+    width: 700px;
+
+}
+
+.bottom .tblB .thNum {
+    width: 50px;
+}
+
+.bottom .tblB .dot {
+    width: 280px;
+}
+
+.bottom .tblB .thWriter {
+    width: 100px;
+}
+
+.bottom .tblB .thDate {
+    width: 100px;
+}
+
+.bottom .tblB .thSearchNum {
+    width: 50px;
+}
+
+.bottom .tblB {
+    background-color: lemonchiffon;
+}
+
+.bottom .tblB thead th,
+.bottom .tblB tfoot td {
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.bottom .tblB button {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

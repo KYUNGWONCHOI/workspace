@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.wrap-main {
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.wrap-main > section {
+	width: 1100px;
+	padding: 10px;
+	float: left;
+}

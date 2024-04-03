@@ -6,16 +6,36 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
+		<item key="selection" value="activetab"/>
 		<list key="findhistory">
+			<item value="activetab"/>
+			<item value="movie_tab"/>
+			<item value="actlist"/>
+			<item value="&lt;button type=&quot;button&quot; class=&quot;bookbtn&quot;&gt;&lt;span class=&quot;booktxt&quot;&gt;예매&lt;/span&gt;&lt;/button&gt;"/>
+			<item value="bookbtn"/>
+			<item value="&lt;button type=&quot;button&quot; class=&quot;bookbtn&quot;&gt;&lt;span class=&quot;booktxt&quot;&gt;예매&lt;/span&gt;&lt;/button&gt;&#x0A;"/>
+			<item value="movie_chart"/>
+			<item value="movieopt"/>
+			<item value="booktxt"/>
+			<item value="booktxt`"/>
+			<item value="movie"/>
+			<item value="class=&quot;bookbtn&quot;&gt;예매"/>
+			<item value="예매"/>
+			<item value="예매하기"/>
+			<item value="ranknum"/>
 		</list>
 		<list key="replacehistory">
+			<item value="&lt;button type=&quot;button&quot; class=&quot;bookbtn&quot;&gt;&lt;a href=&quot;http://localhost:8080/megabox/booking&quot;&gt;&lt;span class=&quot;booktxt&quot;&gt;예매&lt;/span&gt;&lt;/a&gt;&lt;/button&gt;"/>
+			<item value="class=&quot;bookbtn&quot;&gt;&lt;span class=&quot;booktxt&quot;&gt;예매&lt;/span&gt;"/>
+			<item value="&lt;span class=&quot;booktxt&quot;&gt;예매&lt;/span&gt;"/>
+			<item value="예매"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="591"/>
-		<item key="DIALOG_Y_ORIGIN" value="199"/>
-		<item key="DIALOG_WIDTH" value="270"/>
-		<item key="DIALOG_HEIGHT" value="354"/>
+		<item key="DIALOG_X_ORIGIN" value="703"/>
+		<item key="DIALOG_Y_ORIGIN" value="231"/>
+		<item key="DIALOG_WIDTH" value="549"/>
+		<item key="DIALOG_HEIGHT" value="371"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-21|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
